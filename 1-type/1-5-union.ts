@@ -26,18 +26,21 @@
     type LoginState = SuccessState | FailState;
 
     // function login(id:string, password: string): Promise<LoginState> {
-    function login(): LoginState {
-        return  {
-            response: {
-                body: 'logged in!'
-            }
-        }
-    }
-
-    // function printLoginState(state: LoginState){
-    //     if(true){
-    //         return state.response; 
+    // function login(): LoginState {
+    //     return  {
+    //         response: {
+    //             body: 'logged in!'
+    //         }
     //     }
     // }
+
+    // function printLoginState(state: LoginState){
+    //     if('response' in state){
+    //         console.log(`${state.response.body}`);
+    //     }else {
+    //         console.log(`${state.reason}`);
+    //     }
+    // }
+
 
 }
