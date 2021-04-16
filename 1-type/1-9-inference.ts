@@ -15,5 +15,5 @@ function add(x:number, y:number):number{
     return x + y; 
 }
 
-const result = add(1,2);
+// const result = add(1,2);
 
